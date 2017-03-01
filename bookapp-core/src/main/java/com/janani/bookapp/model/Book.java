@@ -3,7 +3,7 @@ package com.janani.bookapp.model;
 public class Book {
 	private Integer id;
 	private String name;
-	private Float price;
+	private Float price; 
 
 	@Override
 	public String toString() {

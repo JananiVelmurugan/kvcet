@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import com.janani.bookapp.model.Book;
 import com.janani.bookapp.util.ConnectionUtil;
 
-public class BookDAO {
+public class BookDAO { 
 
 	private JdbcTemplate jdbcTemplate = ConnectionUtil.getJdbcTemplate();
 
